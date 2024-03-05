@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #15d3ec;
+  
+  background-repeat: no-repeat;
+  
+}
+h1{
+  text-align: center;
+}
+.watch {
+  text-align: center;
+  margin-top: 300px;
+  background-color: #ecdbdb;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(247, 24, 24, 0.1);
+  display: inline-block;
+  margin-left: 750px;
+  
+}
+
+.display{
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  background-color: #cecde2;
+  border-radius: 10px;
+  padding: 25px;
+  display: inline-block;
+  box-shadow: 0px 0px 10px rgba(247, 24, 24, 0.1);
+}
+
+.control{
+  margin-top: 20px;
+}
+
+.button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #eb8107;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.start{
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #0f9b14;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+.stop{
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #992508;
+  border: 50px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.reset{
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #2a095f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
